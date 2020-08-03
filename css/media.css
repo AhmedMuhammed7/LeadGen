@@ -1,0 +1,301 @@
+/*HEADER*/
+@media(max-width:990px){
+    .header .banner .banner-item .banner-content .content-box h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    .header .banner .banner-item .banner-content .content-box{
+        padding: 0;
+        position: relative;
+    }
+    .cen{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .header .banner .banner-item .banner-content .content-box .button{
+        margin: auto
+    }
+}
+@media(max-width:576px){
+    .header .banner .banner-item{
+        height: 60vh;
+    }
+}
+/*END HEADER*/
+
+/* ABOUT*/
+@media(max-width:990px){
+    .about .container .about-content .about-img ,
+    .about .container .about-content .about-text{
+        margin: 10% 0 5%;
+    }
+    .about .container .about-content .about-text p{
+        padding-right: 0
+    }
+}
+/*END ABOUT*/
+
+/* ABOUT-NEXT*/
+@media(max-width:990px){
+    .about-next .container .about-next-content .about-next-content-text h1{
+        letter-spacing: 8.5px;
+    }
+    .about-next .container .about-next-content{
+        text-align: center;
+    }
+    .about-next .about-next-content-img{
+        padding: 0;
+        margin: 38px 0 0px
+    }
+    .about-next .about-next-content-img img{
+        max-width: 100%;
+    }
+}
+/*END ABOUT-NEXT*/
+
+/* OUR TESTIMONIAL*/
+@media (max-width: 768px){
+    .testi-show{
+        padding-top: 8%
+    }
+}
+@media (max-width: 576px){
+    .testi-show{
+        padding-top: 11%
+    }
+}
+/*END OUR TESTIMONIAL*/
+
+/* OUR SERVOCE*/
+@media (max-width: 990px){
+    .service {
+        padding: 15% 0 10%;
+    }
+    .service .service-content .service-box {
+        margin: 15% 5%;
+    }
+    .service .service-header p{
+        padding: 0 15PX;
+        font-size: 12px;
+        line-height: 31px;
+    }
+}
+/*END OUR SERVOCE*/
+
+/* QUATION*/
+@media (max-width: 990px){
+    .qua{
+        text-align: center;
+        height: auto;
+        padding: 12% 0;
+    }
+    .qua .container {
+         display: block;
+    }
+    .qua .container .button{
+        margin: auto;
+    }
+}
+/*END QUATION*/
+
+/* WE MAKE*/
+@media (max-width: 990px){
+    .we-make{
+        background: none;
+        padding: 15% 0;
+    }
+    .we-make .we-text{
+        width: auto;
+        margin-left: 0;
+        text-align: center;
+    }
+    .we-make .we-text .we-text-content .button{
+        margin: 10% auto 5%
+    }
+    .we-make .we-text .we-text-content h1 {
+        line-height: initial;
+        letter-spacing: 3px;
+    }
+    .we-make .we-text .we-text-content h2{
+        margin: 30px 10px
+    }
+    .we-make .we-text .we-text-content p {
+        margin: 10px;
+    }
+}
+/*END WE MAKE*/
+
+/* OUR CLINT*/
+@media (max-width: 768px){
+    .clint {
+        padding: 20% 0 12%;
+    }
+    .clint .clint-header p{
+        padding: 0 15PX;
+        font-size: 12px;
+        line-height: 31px;
+    }
+}
+/*END OUR CLINT*/
+
+/* SIMPLE-BEG*/
+@media (max-width: 768px){
+    .simple .simple-content{
+        width: auto;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .simple .simple-content h1{
+        width: auto
+    }
+    .simple .simple-content h3{
+        width: auto
+    }
+}
+/*END SIMPLE-BEG*/
+
+/* GREAT-SOLUTION*/
+@media (max-width: 768px){
+    .great{
+    }
+    .great .great-content{
+        width: auto;
+        float: none
+    }
+    .great .great-content .posCen{
+        width: 90%;
+        text-align: center;
+    }
+}
+/*END GREAT-SOLUTION*/
+
+/* In-Detailed*/
+@media (max-width: 768px){
+    .in .in-content{
+        
+    }
+}
+/*END In-Detailed*/
+
+/* Lovely Clients*/
+@media (max-width: 768px){
+    .lovely{
+        position: relative;
+        background: transparent;
+    }
+    .lovely .lovely-content{
+        float: none;
+        text-align: center;
+        width: auto
+    }
+    .lovely .lovely-content h2{
+        margin: 25px 0;
+    }
+
+}
+/*END Lovely Clients*/
+
+/* Super Team*/
+@media (max-width: 768px){
+    .team{
+        padding: 10% 0 15%;
+    }
+    .team .team-header {
+        text-align: center;
+    }
+    .team .flex{
+        display: block
+    }
+    .team .team-header h1{
+        letter-spacing: 5px;
+    }
+    .team .team-header .point{
+        display: none
+    }
+    .team .team-header .team-line{
+        margin: auto;
+    }
+    .team .team-header .team-text{
+        margin: 5% 0;
+    }
+    .team .team-header .team-text p{
+        font-size: 12px;
+        line-height: 31px;
+    }
+    .team .team-content .team-box h1{
+        margin-top: 13px;
+    }
+}
+/*END Super Team*/
+
+/* Our Expertise*/
+@media (max-width: 768px){
+    .ex .overlay .ex-content .ex-box{
+        text-align: start
+    }
+    .ex .overlay .ex-header p{
+        padding: 0;
+        font-size: 12px;
+        line-height: 31px;
+    }
+    .ex .overlay .ex-content .ex-box h3{
+        margin-left: 62px;
+    }
+    .ex .overlay .ex-content .ex-box{
+        display: block;    
+    }
+    .ex .overlay .ex-content .ex-box p{
+        width: auto;
+    }
+    .ex .overlay .ex-content .ex-box .box-header h2{
+        width: auto;
+    }
+    .ex .overlay .ex-content .ex-box .box-header{
+        padding-left: 18px;
+    }
+    .ex .overlay  .ex-content .ex-box img{
+        width: 100%;
+    }
+}
+/*END Our Expertise */
+
+/* CONTACT-US*/
+@media (max-width: 768px){
+    .contact{
+        padding: 30% 0 ;
+    }
+    .contact .subject{
+        margin-top: 20px
+    }
+    .contact .massege{
+        width: 100%;
+    }
+    .contact  .b1{
+        display: none
+    }
+    .contact  .b2{
+        display: block;
+        margin-left: 0;
+        margin-top:20px;
+        text-align: center;
+    }
+}
+/*END CONTACT-US*/
+
+/* FOOTER*/
+@media (max-width: 768px){
+    .footer {
+        text-align: center;
+        padding: 10% 0;    
+    }
+    .footer .col4 .footer-box-img {
+        text-align: center;
+    }
+    .footer .col0{
+        margin: 10% 0 0;
+    }
+}
+/*END FOOTER*/
